@@ -1,64 +1,50 @@
-name: Bug Report2
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: 投诉评论
+description: 遇到不合适的评论？在这里进行举报
+title: "[投诉评论]"
+labels: ["投诉评论"]
+assignees: 
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        请填写以下信息：
   - type: input
-    id: contact
+    id: url
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: 投诉页面链接
+      description: 请粘贴投诉页面的链接
+      placeholder: https://chalaoshi.de/t/xxx
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: what-happened
+    id: comment_content
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: 投诉评论内容
+      description: 请粘贴你想投诉的评论内容
+      placeholder: 
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: your_identity
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: 你的身份
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+        - 评论者
+        - 老师本人
+        - 评论涉及
+        - 路人
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
-    id: logs
+    id: reason
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: 为什么这条评论不合适
+      description: 请详细说明你认为这条评论不合适的理由
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: |
+        请注意你在这里提交的内容是公开的。
