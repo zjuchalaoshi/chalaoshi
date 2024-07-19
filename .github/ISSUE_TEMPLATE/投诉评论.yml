@@ -1,10 +1,8 @@
-name: 投诉评论
-description: 遇到不合适的评论？在这里进行举报
-title: "[投诉评论]: "
-labels: ["投诉评论"]
-projects: []
-assignees: 
-  - zjuchalaoshi
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
 body:
   - type: markdown
     attributes:
