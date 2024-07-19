@@ -2,6 +2,7 @@ name: 投诉评论
 description: 遇到不合适的评论？在这里进行举报
 title: "[投诉评论]: "
 labels: ["投诉评论"]
+projects: []
 assignees: 
   - zjuchalaoshi
 body:
@@ -17,4 +18,34 @@ body:
       placeholder: https://chalaoshi.de/t/xxx
     validations:
       required: true
-
+  - type: textarea
+    id: comment_content
+    attributes:
+      label: 投诉评论内容
+      description: 请粘贴你想投诉的评论内容
+      placeholder: 
+    validations:
+      required: true
+  - type: dropdown
+    id: your_identity
+    attributes:
+      label: 你的身份
+      options:
+        - 评论者
+        - 老师本人
+        - 评论涉及
+        - 路人
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么这条评论不合适
+      description: 请详细说明你认为这条评论不合适的理由
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        请注意你在这里提交的内容是公开的。
