@@ -20,7 +20,7 @@ body:
   - type: input
     id: website_link
     attributes:
-      label:  `zju.edu.cn` 网页链接
+      label: zju.edu.cn 网页链接
       placeholder: https://xxx.zju.edu.cn/xxx
     validations:
       required: false
