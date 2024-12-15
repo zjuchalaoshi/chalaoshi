@@ -1,8 +1,13 @@
 # chalaoshi
 
-当前域名: https://chalaoshi.de and https://chalaoshi.buzz
+当前域名: 
 
-其中 `chalaoshi.de` 被校内DNS污染（ 解析到 `127.0.0.1` ), 你可以使用校外网络访问
+- https://chalaoshi.de 
+- https://chalaoshi.buzz
+- https://chalaoshi.click
+
+其中 `chalaoshi.de` 被校内DNS污染（ 解析到 `127.0.0.1` ), 你可以使用校外网络访问;
+`chalaoshi.buzz` 被墙，你需要使用科学上网访问
 
 ## 提交Issue
 
