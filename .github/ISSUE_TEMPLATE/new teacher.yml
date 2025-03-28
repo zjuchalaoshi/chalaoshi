@@ -28,6 +28,6 @@ body:
     id: additional_info
     attributes:
       label: 补充信息
-      placeholder: 可以提供截图
+      placeholder: 可以提供截图，建议至少填写一项证明该老师的存在性
     validations:
       required: false
