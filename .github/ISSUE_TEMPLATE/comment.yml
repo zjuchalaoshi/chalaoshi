@@ -21,7 +21,7 @@ body:
     id: comment_content
     attributes:
       label: 投诉评论内容
-      description: 请粘贴你想投诉的评论内容
+      description: 请粘贴你想投诉的评论内容，请保持原样复制
       placeholder: 
     validations:
       required: true
