@@ -4,8 +4,13 @@
 
 - https://chalaoshi.de 
 - https://0.e.0.0.1.1.f.1.0.7.4.0.1.0.0.2.ip6.arpa
+- https://chalaoshi.f.c.9.0.9.1.0.0.0.7.4.0.1.0.0.2.ip6.arpa
 
-其中de已被墙，建议科学上网访问；曾经使用的buzz和click域名出于成本考虑不再续费
+其中de已被墙，建议科学上网访问
+
+曾经使用的buzz和click域名出于成本考虑不再续费
+
+arpa域名暂时可以访问，但无法保证延迟和可用性
 
 ## 提交Issue
 
