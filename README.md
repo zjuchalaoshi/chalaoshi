@@ -3,10 +3,9 @@
 当前域名: 
 
 - https://chalaoshi.de 
-- https://chalaoshi.buzz
-- https://chalaoshi.click
+- https://0.e.0.0.1.1.f.1.0.7.4.0.1.0.0.2.ip6.arpa
 
-其中前两个域名均被墙，建议科学上网访问
+其中de已被墙，建议科学上网访问；曾经使用的buzz和click域名出于成本考虑不再续费
 
 ## 提交Issue
 
